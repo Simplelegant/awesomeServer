@@ -71,7 +71,7 @@ void sendThread(int id)
 		std::this_thread::sleep_for(t);
 	}
 
-	Login login[10];
+	Login login[1];
 	for (int n = 0; n < 10; n++)
 	{
 		strcpy(login[n].userName, "lyd");
